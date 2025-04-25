@@ -1,0 +1,35 @@
+body p{
+    font-size: 16px;
+}
+
+@media (max-width: 375px) {
+    .img-omelette {
+        width: 50%;
+    }
+}
+
+body h2{
+    font-family: 'Young Serif';
+    font-weight: 400;
+    color: hsl(14, 45%, 36%);
+}
+
+body p, ul, ol {
+    font-family: 'Outfit';
+    font-weight: 400;
+}
+
+.list-instructions li::marker {
+    font-weight: bold;
+}
+
+.title-omelette {
+    color: hsl(24, 5%, 18%);
+}
+
+.title-preparation {
+    font-weight: 400;
+    font-size: 18px;
+    color: hsl(332, 51%, 32%);
+}
+
