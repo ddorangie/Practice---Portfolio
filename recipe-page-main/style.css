@@ -1,22 +1,40 @@
 body p{
-    font-size: 16px;
+    font-size: 20px;
+    color: hsl(30, 10%, 34%);
+}
+
+body {
+    
+    margin: 0; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
 }
 
 @media (max-width: 375px) {
+   
     .img-omelette {
-        width: 50%;
+        margin: 0;
     }
+
+    
 }
 
 body h2{
     font-family: 'Young Serif';
     font-weight: 400;
     color: hsl(14, 45%, 36%);
+    padding-left: 30px;
+    font-size: 35px;
 }
 
 body p, ul, ol {
+    margin-left: 25px;
+    margin-right: 25px;
     font-family: 'Outfit';
     font-weight: 400;
+    color:hsl(30, 10%, 34%);
 }
 
 .list-instructions li::marker {
@@ -24,12 +42,26 @@ body p, ul, ol {
 }
 
 .title-omelette {
+    font-family: 'Young Serif';
+    font-weight: 300;
+    text-align: left;
+    font-size: 35px;
     color: hsl(24, 5%, 18%);
+    margin-left: 25px;
 }
 
 .title-preparation {
     font-weight: 400;
     font-size: 18px;
     color: hsl(332, 51%, 32%);
+    
 }
 
+.preparation-block {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 25px;
+    margin: 25px;
+    text-align: left;
+    padding: 15px;
+    line-height: 1.5;
+}
