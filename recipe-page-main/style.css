@@ -9,17 +9,13 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-  
+    margin-bottom: 10%;
 }
 
-@media (max-width: 375px) {
-   
-    .img-omelette {
-        margin: 0;
-    }
+.img-omelette {
+    margin: 0;
+ }
 
-    
-}
 
 body h2{
     font-family: 'Young Serif';
@@ -31,10 +27,11 @@ body h2{
 
 body p, ul, ol {
     margin-left: 25px;
-    margin-right: 25px;
+    margin-right: 10%;
     font-family: 'Outfit';
     font-weight: 400;
     color:hsl(30, 10%, 34%);
+    line-height: 1.5;
 }
 
 .list-instructions li::marker {
@@ -62,6 +59,24 @@ body p, ul, ol {
     border-radius: 25px;
     margin: 25px;
     text-align: left;
-    padding: 15px;
-    line-height: 1.5;
+    padding: 15px 20px 15px 15px;
+    line-height: 1.8;
 }
+
+ul, ol {
+    line-height: 1.8;
+}
+
+hr {
+    width: 85%;
+    background-color: hsl(33, 8%, 54%);;
+}
+
+.nutrition {
+    padding-left: 3dvh;
+}
+
+.calories {
+    text-align: left;
+}
+
