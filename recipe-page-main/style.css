@@ -1,10 +1,13 @@
-body p{
+.body-block p, span{
     font-size: 20px;
     color: hsl(30, 10%, 34%);
 }
 
 body {
-    
+    margin: 0;
+}
+
+.body-block {
     margin: 0; 
     display: flex;
     flex-direction: column;
@@ -16,8 +19,7 @@ body {
     margin: 0;
  }
 
-
-body h2{
+.body-block h2{
     font-family: 'Young Serif';
     font-weight: 400;
     color: hsl(14, 45%, 36%);
@@ -25,8 +27,8 @@ body h2{
     font-size: 35px;
 }
 
-body p, ul, ol {
-    margin-left: 25px;
+.body-block p, ul, ol, span {
+    margin-left: 10%;
     margin-right: 10%;
     font-family: 'Outfit';
     font-weight: 400;
@@ -68,15 +70,55 @@ ul, ol {
 }
 
 hr {
-    width: 85%;
-    background-color: hsl(33, 8%, 54%);;
-}
-
-.nutrition {
-    padding-left: 3dvh;
+    width: 90%;
+    border: none;
+    height: 0.2px;
+    background-color: hsl(30, 10%, 34%);
 }
 
 .calories {
     text-align: left;
 }
 
+.nutrition p {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.nutrition {
+    padding-left: 10%;
+    padding-right: 8%;
+}
+
+.nutrition span {
+    margin-left:0;
+}
+
+.title-nutrition {
+    padding:0;
+}
+
+.calories b {
+    color: hsl(14, 45%, 36%);
+    display: inline-block;
+    width: 100px;
+}
+
+@media (min-width: 1024px) {
+    .body-block {
+        margin: 10% auto;
+        border-radius: 20px;
+        width: 70%;
+        background-color:hsl(0, 0%, 100%);
+    }
+
+    body {
+        background-color: hsl(30, 54%, 90%);
+    }
+
+    .img-omelette {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+}
